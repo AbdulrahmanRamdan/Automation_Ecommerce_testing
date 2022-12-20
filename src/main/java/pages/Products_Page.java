@@ -16,7 +16,7 @@ public class Products_Page {
     private By tags_Block_Path=By.className("block-popular-tags");
     private By tags_Path=By.cssSelector("div.tags>ul>li");
     private By page_Title_Path=By.className("page-title");
-    private By items_Path=By.className("picture");
+    private By items_Path=By.cssSelector("h2.product-title>a");
 
     public WebDriver getDriver() {
         return driver;
@@ -50,13 +50,13 @@ public class Products_Page {
         return driver.findElement(page_Title_Path).getText();
     }
     public void click_Random_Item(){
-        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",driver.findElement(By.className("breadcrumb")));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",driver.findElement(By.className("page-title")));
         ArrayList<WebElement> webElements = (ArrayList<WebElement>) driver.findElements(items_Path);
         Random random=new Random();
         int index= random.ints(1, webElements.size()).findFirst().getAsInt();
         Actions actions=new Actions(driver);
         actions.moveToElement(webElements.get(index-1)).build().perform();
-        webElements.get(index-1).click();
+        webElements.get(0).click();
     }
 
 }

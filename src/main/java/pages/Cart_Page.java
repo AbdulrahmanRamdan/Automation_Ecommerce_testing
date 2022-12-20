@@ -1,7 +1,10 @@
 package pages;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.ArrayList;
 
 public class Cart_Page {
@@ -31,9 +34,13 @@ public class Cart_Page {
         return names;
     }
     public void accept_Terms(){
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(terms_Path)));
         driver.findElement(terms_Path).click();
     }
     public void click_Checkout(){
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(checkout_BTN_Path)));
         driver.findElement(checkout_BTN_Path).click();
     }
     public void scroll_Down(){

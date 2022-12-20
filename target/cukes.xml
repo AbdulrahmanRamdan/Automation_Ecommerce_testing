@@ -1,137 +1,137 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="13" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="0.234">
-    <testcase classname="User should be able to register" name="User could register with valid data" time="0.015">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given navigate to register page.............................................undefined
-When User choose gender.....................................................skipped
-And User should enter "First Name" and "Last Name"..........................skipped
-And User should enter BirthDate.............................................skipped
-And User should enter Email and Company.....................................skipped
-And User should enter Password and Confirm Password.........................skipped
-And click register button...................................................skipped
-Then display register confirmation message..................................skipped
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="192.631">
+    <testcase classname="User should be able to register" name="User could register with valid data" time="14.239">
+        <system-out>
+            <![CDATA[Given navigate to register page.............................................passed
+When User choose gender.....................................................passed
+And User should enter "First Name" and "Last Name"..........................passed
+And User should enter BirthDate.............................................passed
+And User should enter Email and Company.....................................passed
+And User should enter Password and Confirm Password.........................passed
+And click register button...................................................passed
+Then display register confirmation message..................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to Shopping cart" name="Logged user could add different products to Shopping cart" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User randomly hover selected category..................................skipped
-And open Sub category if found..............................................skipped
-And click random product....................................................skipped
-And add item into Cart......................................................skipped
-Then check item name in cart................................................skipped
+    <testcase classname="Logged user could add different products to Shopping cart" name="Logged user could add different products to Shopping cart" time="17.361">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User randomly hover selected category..................................passed
+And open Sub category if found..............................................passed
+And click random product....................................................passed
+And add item into Cart......................................................passed
+Then check item name in cart................................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to compare list" name="Logged user could add different products to compare list" time="0.015">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User randomly hover selected category..................................skipped
-And open Sub category if found..............................................skipped
-And click random product....................................................skipped
-And add item into CompareList...............................................skipped
-And scroll down and click compare list......................................skipped
-Then check item name in Compare List........................................skipped
+    <testcase classname="Logged user could add different products to compare list" name="Logged user could add different products to compare list" time="22.717">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User randomly hover selected category..................................passed
+And open Sub category if found..............................................passed
+And click random product....................................................passed
+And add item into CompareList...............................................passed
+And scroll down and click compare list......................................passed
+Then check item name in Compare List........................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to Wishlist" name="Logged user could add different products to Wishlist" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User randomly hover selected category..................................skipped
-And open Sub category if found..............................................skipped
-And click random product....................................................skipped
-And add item into WishList..................................................skipped
-And click WishList button...................................................skipped
-Then check item name in WishList............................................skipped
+    <testcase classname="Logged user could add different products to Wishlist" name="Logged user could add different products to Wishlist" time="21.641">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User randomly hover selected category..................................passed
+And open Sub category if found..............................................passed
+And click random product....................................................passed
+And add item into WishList..................................................passed
+And click WishList button...................................................passed
+Then check item name in WishList............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could filter with color" name="Logged user could filter with color" time="0.015">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User hover selected Apparel category and open Shoes Sub category.......skipped
-And choose color filter.....................................................skipped
-Then check Item color.......................................................skipped
+    <testcase classname="Logged user could filter with color" name="Logged user could filter with color" time="21.458">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User hover selected Apparel category and open Shoes Sub category.......passed
+And choose color filter.....................................................passed
+Then check Item color.......................................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Create successful Order" name="Create successful Order" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User choose item and add to cart.......................................skipped
-And Accept the term and click Checkout......................................skipped
-And fill checkout data......................................................skipped
-And choose Shipping Method..................................................skipped
-And choose Payment Method...................................................skipped
-And read Payment information................................................skipped
-And confirm payment.........................................................skipped
-Then confirm order message should be display................................skipped
+    <testcase classname="Create successful Order" name="Create successful Order" time="23.631">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User choose item and add to cart.......................................passed
+And Accept the term and click Checkout......................................passed
+And fill checkout data......................................................passed
+And choose Shipping Method..................................................passed
+And choose Payment Method...................................................passed
+And read Payment information................................................passed
+And confirm payment.........................................................passed
+Then confirm order message should be display................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="User should be able to login" name="Logged User could search for any product" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User enter search word and click enter key.............................skipped
-Then related items should be display........................................skipped
+    <testcase classname="User should be able to login" name="Logged User could search for any product" time="16.154">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User enter search word and click enter key.............................passed
+Then related items should be display........................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could select different Categories" name="Logged user could select different Categories" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User randomly hover selected category..................................skipped
-And open Sub category if found..............................................skipped
-Then check page title.......................................................skipped
+    <testcase classname="Logged user could select different Categories" name="Logged user could select different Categories" time="9.139">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User randomly hover selected category..................................passed
+And open Sub category if found..............................................passed
+Then check page title.......................................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from US to Euro" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User switch from US to Euro............................................skipped
-Then current currency should be change to Euro..............................skipped
+    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from US to Euro" time="8.941">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User switch from US to Euro............................................passed
+Then current currency should be change to Euro..............................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from Euro to US" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User switch from Euro to US............................................skipped
-Then current currency should be change to US................................skipped
+    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from Euro to US" time="8.462">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User switch from Euro to US............................................passed
+Then current currency should be change to US................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Logged user could select different tags" name="Logged user could select different tags" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given User logged into website..............................................undefined
-When User randomly hover selected category..................................skipped
-And open Sub category if found..............................................skipped
-And scroll down and select random tag.......................................skipped
-And click random item.......................................................skipped
-Then check item if belong to tag............................................skipped
+    <testcase classname="Logged user could select different tags" name="Logged user could select different tags" time="13.675">
+        <system-out>
+            <![CDATA[Given User logged into website..............................................passed
+When User randomly hover selected category..................................passed
+And open Sub category if found..............................................passed
+And scroll down and select random tag.......................................passed
+And click random item.......................................................passed
+Then check item if belong to tag............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="User should be able to login" name="User could log in with valid email and password" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given navigate to login page................................................undefined
-When User enter "Email" and "Password"......................................skipped
-And Click login button......................................................skipped
-Then go to home page and logout button is displayed.........................skipped
+    <testcase classname="User should be able to login" name="User could log in with valid email and password" time="7.721">
+        <system-out>
+            <![CDATA[Given navigate to login page................................................passed
+When User enter "Email" and "Password"......................................passed
+And Click login button......................................................passed
+Then go to home page and logout button is displayed.........................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="User should be able to login" name="User could reset his/her password successfully" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given navigate to login page................................................undefined
-When User click on forget password..........................................skipped
-And enter his or her email..................................................skipped
-And click recover...........................................................skipped
-Then display instruction confirmation mes sage..............................skipped
+    <testcase classname="User should be able to login" name="User could reset his/her password successfully" time="7.284">
+        <system-out>
+            <![CDATA[Given navigate to login page................................................passed
+When User click on forget password..........................................passed
+And enter his or her email..................................................passed
+And click recover...........................................................passed
+Then display instruction confirmation message...............................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

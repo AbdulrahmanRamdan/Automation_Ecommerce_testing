@@ -17,6 +17,7 @@ public class Base_StepDefinition {
     @Before
     public void set_Up(){
         driver=WebDriverManager.chromedriver().avoidShutdownHook().create();
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         home_page=new Home_Page(driver);

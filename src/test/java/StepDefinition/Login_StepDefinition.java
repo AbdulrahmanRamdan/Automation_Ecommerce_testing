@@ -11,7 +11,7 @@ import pages.Login_Page;
 public class Login_StepDefinition {
     private Login_Page login_page;
     private Home_Page home_page;
-    private String email="abdulrahmanramadan71@gmail.com";
+    private String email="abdulrahmanramadan781@gmail.com";
     private String password="Abdo2212";
     @Given("navigate to login page")
     public void navigate_to_Login_Page(){
