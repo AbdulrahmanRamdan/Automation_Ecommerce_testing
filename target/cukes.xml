@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="192.631">
-    <testcase classname="User should be able to register" name="User could register with valid data" time="14.239">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="162.018">
+    <testcase classname="User should be able to register" name="User could register with valid data" time="10.152">
         <system-out>
             <![CDATA[Given navigate to register page.............................................passed
 When User choose gender.....................................................passed
@@ -13,7 +13,7 @@ Then display register confirmation message..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to Shopping cart" name="Logged user could add different products to Shopping cart" time="17.361">
+    <testcase classname="Logged user could add different products to Shopping cart" name="Logged user could add different products to Shopping cart" time="14.844">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User randomly hover selected category..................................passed
@@ -24,7 +24,7 @@ Then check item name in cart................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to compare list" name="Logged user could add different products to compare list" time="22.717">
+    <testcase classname="Logged user could add different products to compare list" name="Logged user could add different products to compare list" time="15.898">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User randomly hover selected category..................................passed
@@ -36,7 +36,7 @@ Then check item name in Compare List........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could add different products to Wishlist" name="Logged user could add different products to Wishlist" time="21.641">
+    <testcase classname="Logged user could add different products to Wishlist" name="Logged user could add different products to Wishlist" time="17.004">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User randomly hover selected category..................................passed
@@ -48,7 +48,7 @@ Then check item name in WishList............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could filter with color" name="Logged user could filter with color" time="21.458">
+    <testcase classname="Logged user could filter with color" name="Logged user could filter with color" time="16.139">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User hover selected Apparel category and open Shoes Sub category.......passed
@@ -57,7 +57,7 @@ Then check Item color.......................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Create successful Order" name="Create successful Order" time="23.631">
+    <testcase classname="Create successful Order" name="Create successful Order" time="20.036">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User choose item and add to cart.......................................passed
@@ -71,7 +71,17 @@ Then confirm order message should be display................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="User should be able to login" name="Logged User could search for any product" time="16.154">
+    <testcase classname="User could reset his/her password successfully" name="User could reset his/her password successfully" time="8.193">
+        <system-out>
+            <![CDATA[Given navigate to login page................................................passed
+When User click on forget password..........................................passed
+And enter his or her email..................................................passed
+And click recover...........................................................passed
+Then display instruction confirmation message...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User should be able to login" name="Logged User could search for any product" time="10.75">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User enter search word and click enter key.............................passed
@@ -79,7 +89,7 @@ Then related items should be display........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could select different Categories" name="Logged user could select different Categories" time="9.139">
+    <testcase classname="Logged user could select different Categories" name="Logged user could select different Categories" time="10.503">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User randomly hover selected category..................................passed
@@ -88,7 +98,7 @@ Then check page title.......................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from US to Euro" time="8.941">
+    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from US to Euro" time="8.229">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User switch from US to Euro............................................passed
@@ -96,7 +106,7 @@ Then current currency should be change to Euro..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from Euro to US" time="8.462">
+    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User could switch from Euro to US" time="8.833">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User switch from Euro to US............................................passed
@@ -104,7 +114,7 @@ Then current currency should be change to US................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Logged user could select different tags" name="Logged user could select different tags" time="13.675">
+    <testcase classname="Logged user could select different tags" name="Logged user could select different tags" time="13.719">
         <system-out>
             <![CDATA[Given User logged into website..............................................passed
 When User randomly hover selected category..................................passed
@@ -115,22 +125,12 @@ Then check item if belong to tag............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="User should be able to login" name="User could log in with valid email and password" time="7.721">
+    <testcase classname="User should be able to login" name="User could log in with valid email and password" time="7.446">
         <system-out>
             <![CDATA[Given navigate to login page................................................passed
 When User enter "Email" and "Password"......................................passed
 And Click login button......................................................passed
 Then go to home page and logout button is displayed.........................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="User should be able to login" name="User could reset his/her password successfully" time="7.284">
-        <system-out>
-            <![CDATA[Given navigate to login page................................................passed
-When User click on forget password..........................................passed
-And enter his or her email..................................................passed
-And click recover...........................................................passed
-Then display instruction confirmation message...............................passed
 ]]>
         </system-out>
     </testcase>

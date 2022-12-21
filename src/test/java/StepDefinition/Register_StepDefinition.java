@@ -30,7 +30,7 @@ public class Register_StepDefinition {
     }
     @And("User should enter Email and Company")
     public void enter_Email_and_Company(){
-        register_page.enter_Email_and_Company("abdulrahmanramadan781@gmail.com","FWD");
+        register_page.enter_Email_and_Company("abdulrahmanramadan@gmail.com","FWD");
     }
     @And("User should enter Password and Confirm Password")
     public void enter_Password(){

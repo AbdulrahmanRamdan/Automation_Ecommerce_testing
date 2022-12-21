@@ -28,6 +28,8 @@ public class CheckOut_Page {
     }
 
     public void setCountry(){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(this.country)));
         new Select(driver.findElement(this.country)).selectByVisibleText("Egypt");
     }
     public void setCity(String city){driver.findElement(this.city).sendKeys(city);}

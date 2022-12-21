@@ -12,7 +12,7 @@ public class ResetPassword_StepDefinition {
     private Login_Page login_page;
     private Home_Page home_page;
     private ResetPassword_Page resetPassword_page;
-    private String email="abdulrahmanramadan71@gmail.com";
+    private String email="abdulrahmanramadan@gmail.com";
     @When("User click on forget password")
     public void navigate_to_Reset_Page(){
         home_page=new Base_StepDefinition().home_page;
